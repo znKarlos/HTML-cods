@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Exemplo de Tabela</title>
+        <style>
+            table{
+                /*boder: 1px solid blue;*/
+                text-align: center;
+                padding: 10px;
+            }
+
+            
+            tr#primeira{
+                font-weight: bold;
+                background-color: rgb(0, 0, 0);
+                color:rgb(16, 229, 193);            
+
+            }
+
+            tr{
+                background-color: rgb(255, 255, 255);
+            }
+
+            tr:hover{
+                background-color: rgb(226, 97, 255);
+            }
+
+        </style>
+</head>
+<body>
+        <h1>Funerária Sua Morte Nossa alegria</h1>
+        <h1>
+        <h2>Tabela De Caixãos</h2>
+        <p>
+
+        <table border="4">
+            <tr id="primeira">
+                <td>Caixão</td>
+                <td>Preço (R$)</td>
+            </tr>
+            <tr>
+                <td>Caixão de Papelão</td>
+                <td>R$ 100,00</td>
+            </tr>
+            <td>Caixão de Maderite</td>
+                <td>R$ 200,00</td>
+            <tr>
+                <td>Caixão de Pedra</td>
+                <td>R$ 300,00</td>
+            </tr>
+            <tr>
+                <td>Caixão Normal</td>
+                <td>R$ 550,00</td>
+            </tr>
+            <tr>
+                <td>Caixão de Cerâmica</td>
+                <td>R$ 1200,00</td>
+            </tr>
+            <tr>
+                <td>Caixão de Concreto</td>
+                <td>R$ 2000,00</td>
+            </tr>
+        </table>
+        
+        <img src="https://i.pinimg.com/236x/db/79/06/db79063b92c09d49053b2ad711e9b813.jpg" 30px>
+
+    </body>
+
+</head>
+</html>
